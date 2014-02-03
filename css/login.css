@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	color: #344A8F;
+}
+
+/* Login Page */
+#login {
+	background-image: url('../imgs/balling.jpg');
+	background-size: cover;
+}
+
+#login_info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+
+	box-shadow: 0 0 150px 10px rgba(255, 255, 255, 0.4);
+
+	display: inline-block;
+
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	background-color: rgba(255, 255, 255, 0.8);
+
+	transition: box-shadow 0.5s;
+	-webkit-transition: box-shadow 0.5s;
+}
+
+#login_info:hover {
+	box-shadow: 0 0 150px 10px rgba(255, 255, 255, 0.8);
+}
+
+#login_info > div {
+	position: relative;
+	width: 250px;
+	height: 160px;
+	/*background-color: red;*/
+
+	top: 50%;
+	left: 50%;
+	margin-left: -125px;
+	margin-top: -95px; 
+}
+
+/* Login Form */
+form h3 {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 15px;
+	width: 90px;
+
+	text-transform: uppercase;
+	font-size: 14px;
+
+	font-weight: normal;
+	color: #344A8F;
+}
+
+form p {
+	text-align: center;
+	color: #344A8F;
+
+}
+
+form input[type="text"], form input[type="password"] {
+	width: 155px;
+	height: 20px;
+
+	outline: 0;
+	border: 1px solid #aaa;
+	border-radius: 2px;
+	background-color: rgba(255, 255, 255, 0.5);
+
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus {
+	border: 1px solid #5C85FF;
+}
+
+.btnSubmit {
+
+	display: inline-block;
+
+	width: 250px;
+	height: 40px;
+	background-color: #4A6ACC;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	line-height: 40px;
+	letter-spacing: 4px;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+
+	border-radius: 3px;
+	border: 0;
+	padding: 0;
+	outline: 0;
+
+}
+
+.btnSubmit:hover
+{
+	background-color: #5C85FF;
+}
+
+.btnSubmit:active
+{
+	background-color: #344A8F;
+}

@@ -1,0 +1,283 @@
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	height: 100%;
+}
+
+body
+{
+	background-color: #3c64a1;
+	background: -webkit-radial-gradient(circle, #5C85FF, #3c64a1);
+	color: white;
+	height: 100%;
+	min-width: 750px;
+}
+
+#header
+{
+	/*height: 50px;*/
+	border-bottom: 1px solid #ddd;
+}
+
+.mainContent
+{
+	display: block;
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: rgba(255,255,255, 0.6);
+	color: #344A8F;
+}
+
+/*** JOKE LIST STYLES ***/
+
+.tableStyle a
+{
+	color: #344A8F;
+	text-decoration: none;
+}
+
+.tableStyle a:hover
+{
+	color: #5C85FF;
+}
+
+
+.tableStyle td
+{
+	height: 30px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.tableStyle td:first-child{
+
+	width: 40px;
+	border-right: 1px solid #ddd;
+	text-align: center;
+}
+
+.tableStyle  td:nth-child(2){
+	padding-left: 10px;
+	width: 450px;
+}
+
+.tableStyle td a
+{
+	display: block; 
+}
+
+/*** JOKE FORM STYLES ***/
+
+#jokeForm
+{
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px;
+	
+}
+
+.centerText
+{
+	text-align: center;
+}
+
+.boldText
+{
+	font-weight: bold;
+	display: block;
+}
+
+
+.formLabels{
+	margin: 10px 0;
+	display: inline-block;	
+	font-size: 15px;
+	width: 130px;
+}
+
+.inputStyles
+{
+	width: 208px;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	outline: 0;
+	
+}
+
+form input[type="text"]
+{
+	width: 200px;
+	/*height: 20px;*/
+	border-radius: 2px;
+	outline: 0;
+	border: 1px solid #aaa;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-size: 12px;
+	vertical-align: middle;
+	padding-left: 3px;
+	
+}
+
+
+#back
+{
+	text-decoration: none;
+	color: white;
+}
+
+.jokeContent
+{
+	padding: 10px 20px;
+}
+
+.buttons
+{
+	padding: 10px;
+	width: 220px;
+	margin: 0 auto;	
+}
+
+
+.smallButton
+{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+.bigButton
+{
+	width: 220px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+}
+
+.menuButton
+{
+	display: inline-block;
+	background-color: #4A6ACC;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	border-radius: 3px;
+	text-decoration: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+
+	cursor: pointer;
+
+	border: 0;
+	padding: 0;
+	outline: 0;
+}
+
+.menuButton:hover
+{
+	background-color: #5C85FF;
+}
+
+.menuButton:active
+{
+	background-color: #344A8F;
+}
+
+
+.formButtons
+{
+	padding: 10px;
+}
+
+#searchByCategory
+{
+	display: block;
+	width: 350px;
+	margin: 0 auto 15px auto;	
+}
+
+hr
+{
+	border:0;
+	border-bottom: 1px solid #ddd;
+	padding: 0;
+	margin: 0;
+}
+
+.images
+{
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+	border: 3px solid white;
+}
+
+.page-wrapper
+{
+	min-height: 100%;
+	margin-bottom: -20px;
+}
+
+.page-wrapper:after {
+	content: "";
+	display: block;
+}
+
+.footer, #wrapper:after
+{
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.leftAlign
+{
+	float: left;
+}
+
+.headerWrapper
+{
+	margin: 0 auto;
+	padding: 0 100px;
+	
+}
+
+.titlePanel
+{
+	width: 300px;
+	float: left;
+
+}
+
+#logoutForm
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: 
+}
+
+.userPanel
+{	
+	float: right;
+	margin-top: 15px;
+	padding: 10px;
+	background: rgba(255,255,255, 0.7);
+	border-radius: 10px;
+	color: #344A8F;
+}
+
+.userPanel input
+{
+	margin-left: 10px;
+}
+
+
+
